@@ -9,7 +9,7 @@ function Catalog() {
 					<h2 className="category__title">Категории</h2>
 					<ul className="category__list">
 						<li className="category__item">
-							<a href="" className="category__link">Языки программирования</a>
+							<a href="yazyki-programmirovaniya" className="category__link">Языки программирования</a>
 						</li>
 						<li className="category__item">
 							<a href="/web-razrabotka" className="category__link">Вебразработка</a>
@@ -48,12 +48,16 @@ function Catalog() {
 									<img src="/images/6189285261.jpg" width="110" height="110" alt="12" />
 								</picture>
 								<picture>
-									<source srcset="/images/6640997009.webp" type="image/webp" />
-									<img src="/images/6640997009.jpg" width="110" height="110" alt="12" />
+									<source srcset="/images/6255851335.webp" type="image/webp" />
+									<img src="/images/6255851335.jpg" width="110" height="110" alt="12" />
 								</picture>
 								<picture>
 									<source srcset="/images/6621788745.webp" type="image/webp" />
 									<img src="/images/6621788745.jpg" width="110" height="110" alt="12" />
+								</picture>
+								<picture>
+									<source srcset="/images/6621831824.webp" type="image/webp" />
+									<img src="/images/6621831824.jpg" width="110" height="110" alt="12" />
 								</picture>
 							</div>
 						</a>
