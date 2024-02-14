@@ -45,19 +45,19 @@ function Catalog() {
 							<div className="banner__img">
 								<picture>
 									<source srcset="/images/6189285261.webp" type="image/webp" />
-									<img src="/images/6189285261.jpg" width="110" height="110" alt="12" />
+									<img src="/images/6189285261.jpg" width="110" height="110" alt="Чистая архитектура. Искусство разработки программного обеспечения" />
 								</picture>
 								<picture>
 									<source srcset="/images/6255851335.webp" type="image/webp" />
-									<img src="/images/6255851335.jpg" width="110" height="110" alt="12" />
+									<img src="/images/6255851335.jpg" width="110" height="110" alt="Javascript с нуля" />
 								</picture>
 								<picture>
 									<source srcset="/images/6621788745.webp" type="image/webp" />
-									<img src="/images/6621788745.jpg" width="110" height="110" alt="12" />
+									<img src="/images/6621788745.jpg" width="110" height="110" alt="Изучаем Python. Программирование игр, визуализация данных, веб-приложений" />
 								</picture>
 								<picture>
 									<source srcset="/images/6621831824.webp" type="image/webp" />
-									<img src="/images/6621831824.jpg" width="110" height="110" alt="12" />
+									<img src="/images/6621831824.jpg" width="110" height="110" alt="Основы Python. Научитесь думать как программист" />
 								</picture>
 							</div>
 						</a>
