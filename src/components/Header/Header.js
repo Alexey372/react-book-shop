@@ -1,29 +1,35 @@
 import React from "react"
+
 import "./Header.sass"
+
+import Logo from "./IT book.svg"
+import { AiOutlineUser } from "react-icons/ai"
+import { AiOutlineSearch } from "react-icons/ai"
+import { AiOutlineShopping } from "react-icons/ai"
 
 function Header() {
 	return (
 		<header className="header">
 			<div className="header__top">
-				<h2 className="header__logo">
-					<a href="/" className="header__link">
-						
+				<a href="/" className="header__link">
+					<img className="header__logo" src={Logo} aria-hidden alt="logo" />
+				</a>
+				<form className="" action="#" method="get">
+					<div className="header__search">
+						<input className="search__input" type="text" />
+						<button className="search__button">
+							<AiOutlineSearch className="header__icon" />
+						</button>
+					</div>
+				</form>
+				<div className="header__menu">
+					<button className="menu__button" type="button">
+						<AiOutlineUser className="header__icon" />
+					</button>
+					<a href="/cart" aria-label="Перейти в корзину" className="menu__link">
+						<AiOutlineShopping className="header__icon" />
 					</a>
-				</h2>
-				<ul className="nav__list">
-					<li className="nav__item">
-						<a href="#home" className="nav__link">Home</a>
-					</li>
-					<li className="nav__item">
-						<a href="#about" className="nav__link">About</a>
-					</li>
-					<li className="nav__item">
-						<a href="#blog" className="nav__link">Blog</a>
-					</li>
-					<li className="nav__item">
-						<a href="#contacts" className="nav__link">Contacts</a>
-					</li>
-				</ul>
+				</div>
 			</div>
 		</header>
 	)

@@ -1,34 +1,65 @@
 .header
 	width: 100%
-
-.header__top
-	align-items: center
-	display: flex
-	flex-direction: row
-	flex-shrink: 0
-	height: 70px
-	justify-content: space-between
-	margin: 0 auto
-	padding: 0 30px
-	width: 1240px
-
-.header__logo
-	display: block
-	font-family: "SourceSans3", sans-serif
-	font-size: 28px
-	font-style: normal
-	font-weight: bold
+	.header__top
+		align-items: center
+		display: flex
+		flex-direction: row
+		flex-shrink: 0
+		height: 70px
+		justify-content: space-between
+		margin: 0 auto
+		padding: 0 30px
+		width: 1240px
 
 .header__link
 	color: #333
 	cursor: pointer
 
-.nav__item
-	display: inline-flex
-	list-style: none
-	padding: 4px 15px
+.header__search
+	align-items: center
+	border: 1px solid #333
+	display: flex
+	margin: 0
+	padding: 0
+	position: relative
+	width: 398px
 
-.nav__link
+.search__input
+	border: 0
+	display: block
+	font-family: "Sourcesans3", sans-serif
+	font-size: 16px
+	font-style: normal
+	font-weight: 400
+	height: 28px
+	outline: 0
+	padding: 0 0 0 10px
+	width: 360px
+
+.search__button
+	align-items: center
+	background-color: transparent
+	border: 0
+	cursor: pointer
+	display: flex
+
+.header__icon
+	color: #333
+	display: block
+	height: 28px
+	width: 28px
+
+.header__menu
+	display: inline-flex
+	gap: 15px
+	list-style: none
+
+.menu__button
+	background-color: transparent
+	border: 0
+	cursor: pointer
+
+.menu__link
 	color: #333
 	cursor: pointer
 	font-size: 16px
