@@ -42,8 +42,8 @@ function Catalog() {
 						<a className="banner__link" href="/catalog" target="_blank">
 							<div className="banner__img">
 								<picture>
-									<source srcset="/images/banner.png 2x" />
-									<img src="/images/banner.png" width="910" height="200" alt="" />
+									<source srcset="/images/banner.jpg 2x" />
+									<img src="/images/banner.jpg" width="910" height="200" alt="" />
 								</picture>
 							</div>
 						</a>
@@ -52,8 +52,8 @@ function Catalog() {
 						<a className="banner__link" href="/catalog" target="_blank">
 							<div className="banner__img">
 								<picture>
-									<source srcset="/images/banner2.png 2x" />
-									<img src="/images/banner2.png" width="910" height="200" alt="" />
+									<source srcset="/images/banner2.jpg 2x" />
+									<img src="/images/banner2.jpg" width="910" height="200" alt="" />
 								</picture>
 							</div>
 						</a>
@@ -62,8 +62,8 @@ function Catalog() {
 						<a className="banner__link" href="/catalog" target="_blank">
 							<div className="banner__img">
 								<picture>
-									<source srcset="/images/banner3.png 2x" />
-									<img src="/images/banner3.png" width="910" height="200" alt="" />
+									<source srcset="/images/banner3.jpg 2x" />
+									<img src="/images/banner3.jpg" width="910" height="200" alt="" />
 								</picture>
 							</div>
 						</a>

@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App layout">
       <Header />
-	
+			<Catalog />
 			<Footer />
     </div>
   )
