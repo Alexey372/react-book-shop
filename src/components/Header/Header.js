@@ -3,9 +3,7 @@ import React from "react"
 import "./Header.sass"
 
 import Logo from "./IT book.svg"
-import { AiOutlineUser } from "react-icons/ai"
-import { AiOutlineSearch } from "react-icons/ai"
-import { AiOutlineShopping } from "react-icons/ai"
+import { AiOutlineUser, AiOutlineSearch, AiOutlineShopping } from "react-icons/ai"
 
 function Header() {
 	return (

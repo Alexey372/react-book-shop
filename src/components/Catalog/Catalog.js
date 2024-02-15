@@ -37,30 +37,39 @@ function Catalog() {
 						</li>
 					</ul>
 				</nav>
-				<div className="banner__sliders">
+				<div className="banner__sliders slider">
 					<div className="banner__slider">
 						<a className="banner__link" href="/catalog" target="_blank">
-							<span className="banner__text">Акция 5% на книги.<br /> Скидки действуют до 16 февраля</span>
-							<span className="banner__desc">Собрать в корзину</span>
 							<div className="banner__img">
 								<picture>
-									<source srcset="/images/6189285261.webp" type="image/webp" />
-									<img src="/images/6189285261.jpg" width="110" height="110" alt="Чистая архитектура. Искусство разработки программного обеспечения" />
-								</picture>
-								<picture>
-									<source srcset="/images/6255851335.webp" type="image/webp" />
-									<img src="/images/6255851335.jpg" width="110" height="110" alt="Javascript с нуля" />
-								</picture>
-								<picture>
-									<source srcset="/images/6621788745.webp" type="image/webp" />
-									<img src="/images/6621788745.jpg" width="110" height="110" alt="Изучаем Python. Программирование игр, визуализация данных, веб-приложений" />
-								</picture>
-								<picture>
-									<source srcset="/images/6621831824.webp" type="image/webp" />
-									<img src="/images/6621831824.jpg" width="110" height="110" alt="Основы Python. Научитесь думать как программист" />
+									<source srcset="/images/banner.png 2x" />
+									<img src="/images/banner.png" width="910" height="200" alt="" />
 								</picture>
 							</div>
 						</a>
+					</div>
+					<div className="banner__slider">
+						<a className="banner__link" href="/catalog" target="_blank">
+							<div className="banner__img">
+								<picture>
+									<source srcset="/images/banner2.png 2x" />
+									<img src="/images/banner2.png" width="910" height="200" alt="" />
+								</picture>
+							</div>
+						</a>
+					</div>
+					<div className="banner__slider">
+						<a className="banner__link" href="/catalog" target="_blank">
+							<div className="banner__img">
+								<picture>
+									<source srcset="/images/banner3.png 2x" />
+									<img src="/images/banner3.png" width="910" height="200" alt="" />
+								</picture>
+							</div>
+						</a>
+					</div>
+					<div className="banner__nav">
+						
 					</div>
 				</div>
 			</div>
