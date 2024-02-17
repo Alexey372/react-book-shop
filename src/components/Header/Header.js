@@ -7,7 +7,7 @@ import { AiOutlineUser, AiOutlineSearch, AiOutlineShopping } from "react-icons/a
 
 function Header() {
 	return (
-		<header className="header">
+		<header className="header__main">
 			<div className="header__top">
 				<a href="/" className="header__link">
 					<img className="header__logo" src={Logo} aria-hidden alt="logo" />
