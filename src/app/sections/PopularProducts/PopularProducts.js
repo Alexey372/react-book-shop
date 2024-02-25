@@ -14,6 +14,14 @@ function PopularProducts() {
 								<img className="product__image" aria-hidden src="/images/6189285261.jpg" alt="product" />
 							</picture>
 						</a>
+						<div className="product__price">
+							<span>1 067 Р</span>
+						</div>
+						<div className="product__name">
+							<span>
+								<a href="/product[id]" className="products__link">Чистая архитектура. Искусство разработки программного обеспечения. Роберт Мартин</a>
+							</span>
+						</div>
 					</li>
 					<li className="products__item">
 						<a href="/product[id]" aria-label="" className="products__link">
@@ -22,6 +30,14 @@ function PopularProducts() {
 								<img className="product__image" aria-hidden src="/images/6255851335.jpg" alt="product" />
 							</picture>
 						</a>
+						<div className="product__price">
+							<span>1 497 Р</span>
+						</div>
+						<div className="product__name">
+							<span>
+								<a href="/product[id]" className="products__link">JavaScript с нуля. Чиннатхамби Кирупа</a>
+							</span>
+						</div>
 					</li>
 					<li className="products__item">
 						<a href="/product[id]" aria-label="" className="products__link">
