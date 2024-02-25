@@ -41,7 +41,7 @@ function Banner() {
 					</div>
 				</div>
 				<div className="banner_sidebar">
-					<a href="#">
+					<a href="#banner">
 						<picture>
 							<source srcset="/images/banner4.png 2x" />
 								<img src="/images/banner4.png" width="300" height="400" alt="" />
